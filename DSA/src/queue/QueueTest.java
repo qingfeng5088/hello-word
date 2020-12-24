@@ -3,7 +3,7 @@ package queue;
 public class QueueTest {
     public static void main(String[] args) {
         CircularQueue queue = new CircularQueue(8);
-
+        // 很不多的实现方式
         queue.enqueue("Qiu01");
         queue.enqueue("Qiu02");
         queue.enqueue("Qiu03");
